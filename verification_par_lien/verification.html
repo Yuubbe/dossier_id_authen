@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification du Code</title>
+</head>
+<body>
+    <h2>Vérification du Code</h2>
+    <p>Veuillez entrer le code de vérification reçu par e-mail pour activer votre compte.</p>
+    <form action="verification.php" method="POST">
+        <div>
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="verification_code">Code de vérification :</label>
+            <input type="text" id="verification_code" name="verification_code" required>
+        </div>
+        <button type="submit">Vérifier</button>
+    </form>
+</body>
+</html>
